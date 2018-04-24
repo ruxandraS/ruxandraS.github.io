@@ -73,7 +73,7 @@ social:
 # Build settings
 plugins: [jekyll-paginate]
 disqus:
-  shortname: ruxandraS-github
+  shortname: https-ruxandras-github-io
 markdown: kramdown
 paginate: 4 
 paginate_path: "recent_blogposts/page:num/"
