@@ -1,13 +1,50 @@
 <nav id="sidebar-icon-links">
-  {%- for social in site.social -%}
+   <a class="icon" href="{{ site.baseurl }}/feed.xml">
+    {% include svg/social/rss.svg %}
+  </a>
+
+  <a class="icon" href="mailto:{{ site.email }}">
+    {% include svg/social/gmail.svg %}
+  </a>
+
+   {%- for social in site.social -%}
+     {%- if social.name == "GitHub" -%}
+        <a class="icon" href="{{ social.url }}">
+         {% include svg/social/github.svg %}
+        </a>
+      {%- endif -%}
+
+      {%- if social.name == "LinkedIn" -%}
+        <a class="icon" href="{{ social.url }}">
+         {% include svg/social/linkedin.svg %}
+        </a>
+      {%- endif -%}
+
+      {%- if social.name == "Twitter" -%}
+        <a class="icon" href="{{ social.url }}">
+          <!-- <svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#{{ social.icon }}"></use></svg> -->
+         {% include svg/social/twitter.svg %}
+          <!-- <span class="username">{{ social.username }}</span> -->
+        </a>
+      {%- endif -%}
+
+      {%- if social.name == "Instagram" -%}
+        <a class="icon" href="{{ social.url }}">
+          <!-- <svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#{{ social.icon }}"></use></svg> -->
+         {% include svg/social/instagram.svg %}
+          <!-- <span class="username">{{ social.username }}</span> -->
+        </a>
+      {%- endif -%}
+    {%- endfor -%}
+
+  <!-- {%- for social in site.social -%}
     {%- if social.url != null -%}
       <a href="{{ social.url }}">
-        <!-- <svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#{{ social.icon }}"></use></svg> -->
-        <svg class="icon"><use xlink:href="{{ site.baseurl }}/_includes/svg/social-icons.svg#{{ social.icon }}"></use></svg>
-        <!-- <span class="username">{{ social.username }}</span> -->
+        <svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#{{ social.icon }}"></use></svg>
+        <span class="username">{{ social.username }}</span>
       </a>
     {%- endif -%}
-  {%- endfor -%}
+  {%- endfor -%} -->
 
 <!--   {% if site.github.repo %}
     <a id="github-link"
@@ -22,11 +59,11 @@
     </a>
   {% endif %} -->
 
-  <a id="subscribe-link"
+<!--   <a id="subscribe-link"
      class="icon" title="Subscribe" aria-label="Subscribe"
      href="{{ site.baseurl }}/feed.xml">
     {% include svg/feed.svg %}
-  </a>
+  </a> -->
 
   {% comment %}
     Check if we have tag or search pages page active before linking to it.

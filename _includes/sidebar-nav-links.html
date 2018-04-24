@@ -19,32 +19,7 @@
         href="https://github.com/ruxandraS/ruxandraS.github.io">Github Project</a>
   {% endif %}
 
-<!--   {% if site.sidebar_blog_link %}
-    <a class="page-link {% if page.url == site.sidebar_blog_link %} active{% endif %}"
-	href="{{ site.baseurl }}{{ site.sidebar_blog_link }}">Blog</a>
-  {% endif %} -->
-
-<!--   <ul style="list-style: none;">
-  {%- for social in site.social -%}
-    {%- if social.url != null -%}
-    <li>
-      <a href="{{ social.url }}">
-        <svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#{{ social.icon }}"></use></svg>
-        <svg class="svg-icon"><use xlink:href="/_includes/svg/social-icons.svg#{{ social.icon }}"></use></svg>
-        <span class="username">{{ social.username }}</span>
-      </a>
-    </li>
-    {%- endif -%}
-  {%- endfor -%}
-  </ul> -->
-
-  {% comment %}
-    The code below dynamically generates a sidebar nav of pages with
-    `sidebar_link: true` in the front-matter. See readme for usage.
-  {% endcomment %}
-
   {% include page-links.html %}
-  {% include category-links.html %}
 
   {% include custom-nav-links.html %}
 </nav>
