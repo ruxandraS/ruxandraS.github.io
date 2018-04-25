@@ -5,17 +5,17 @@
   {% endif %}
 
   {% if site.sidebar_about_link %}
-    <a class="home-link {% if page.url == '/' %} active{% endif %}"
+    <a class="home-link {% if page.url == '/about/' %} active{% endif %}"
         href="{{ site.abouturl }}/">About</a>
   {% endif %}
 
   {% if site.sidebar_recent_link %}
-    <a class="home-link {% if page.url == '/' %} active{% endif %}"
+    <a class="home-link {% if page.url == '/recent_blogposts/' %} active{% endif %}"
         href="{{ site.blogurl }}/">Recent Blogposts</a>
   {% endif %}
 
   {% if site.sidebar_repo_link %}
-    <a class="home-link {% if page.url == '/' %} active{% endif %}"
+    <a class="home-link {% if page.url == '/repo/' %} active{% endif %}"
         href="https://github.com/ruxandraS/ruxandraS.github.io">Github Project</a>
   {% endif %}
 

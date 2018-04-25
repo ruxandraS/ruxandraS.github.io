@@ -27,7 +27,7 @@ abouturl: "/about"
 blogurl: "/recent_blogposts"
 sidebar_home_link: home
 sidebar_about_link: about
-sidebar_recent_link: recent
+sidebar_recent_link: recent_blogposts
 sidebar_repo_link: repo
 
 social:
