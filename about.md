@@ -7,7 +7,7 @@ permalink: /about/
 About me
 <!-- Contct details -->
 <p>
-	<div style="display:inline-block; min-width:2.2cm; height:1cm; align: center;vertical-align: middle;">
+	<div style="display:inline-block; min-width:1.5cm; height:1cm; align: center;vertical-align: middle;">
 		<img src="https://ruxandraS.github.io/assets/images/globe.svg" style="height:1cm;"/>
 	</div>
 	<div style="display:inline-block;vertical-align: middle;">
@@ -16,7 +16,7 @@ About me
 </p>
 
 <p>
-	<div style="display:inline-block; min-width:2.2cm; height:1cm; align: center;vertical-align: middle;">
+	<div style="display:inline-block; min-width:1.5cm; height:1cm; align: center;vertical-align: middle;">
 		<img src="https://ruxandraS.github.io/assets/images/irc.svg" style="height:1cm;"/>
 	</div>
 	<div style="display:inline-block;vertical-align: middle;">
@@ -25,7 +25,7 @@ About me
 </p>
 
 <p>
-	<div style="display:inline-block; min-width:2.2cm; height:1cm; align: center;vertical-align: middle;">
+	<div style="display:inline-block; min-width:1.5cm; height:1cm; align: center;vertical-align: middle;">
 		<img src="https://ruxandraS.github.io/assets/images/gmail.svg" style="height:1cm;"/>
 	</div>
 	<div style="display:inline-block;vertical-align: middle;">
