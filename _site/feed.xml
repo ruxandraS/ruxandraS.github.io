@@ -4,11 +4,7 @@
  <title>MyTitle</title>
  <link href="http://localhost:4000/feed.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
-<<<<<<< HEAD
- <updated>2018-05-02T13:09:43+03:00</updated>
-=======
- <updated>2018-05-02T13:09:14+03:00</updated>
->>>>>>> 8e48bf1b357dd6cc0048dbeb06053cbba2a64172
+ <updated>2018-05-02T13:16:27+03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ruxandra Simion</name>
