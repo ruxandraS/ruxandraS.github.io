@@ -17,6 +17,15 @@ About me
 
 <p>
 	<div style="display:inline-block; min-width:2.2cm; height:1cm; align: center;vertical-align: middle;">
+		<img src="https://ruxandraS.github.io/assets/images/irc.svg" style="height:1cm;"/>
+	</div>
+	<div style="display:inline-block;vertical-align: middle;">
+		ruxandrasimion
+	</div>
+</p>
+
+<p>
+	<div style="display:inline-block; min-width:2.2cm; height:1cm; align: center;vertical-align: middle;">
 		<img src="https://ruxandraS.github.io/assets/images/gmail.svg" style="height:1cm;"/>
 	</div>
 	<div style="display:inline-block;vertical-align: middle;">
@@ -24,14 +33,6 @@ About me
 	</div>
 </p>
 
-<p>
-	<div style="display:inline-block; min-width:2.2cm; height:1cm; align: center;vertical-align: middle;">
-		<img src="https://ruxandraS.github.io/assets/images/irc.svg" style="height:1cm;"/>
-	</div>
-	<div style="display:inline-block;vertical-align: middle;">
-		ruxandrasimion
-	</div>
-</p>
 
 <!-- | ![Alt text](https://ruxandraS.github.io/assets/images/pin.svg)   | UTC+02:00                   |
 | ![Alt text](https://ruxandraS.github.io/assets/images/gmail.svg) | ruxandra.simion93@gmail.com |
