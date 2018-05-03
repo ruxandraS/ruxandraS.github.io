@@ -22,7 +22,7 @@ email: ruxandrasimion93@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ruxandraS.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ruxandraS.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 abouturl: "/about"
 blogurl: "/recent_blogposts"
 sidebar_home_link: home
