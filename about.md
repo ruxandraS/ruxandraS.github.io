@@ -6,7 +6,7 @@ permalink: /about/
 
 I am a computer science graduate, currently pursuing a masters degree in Computer Graphics, Multimedia and Virtual Reality.
 
-Besides technology, I am truly passionate about photography, music and cooking, and I take serious interest into protecting the environment.
+Besides technology, I am truly passionate about photography, music, and cooking, and I take serious interest in protecting the environment.
 
 I believe these passions always push me into finding ways to combine technical and creative ingredients to achieve even the simplest tasks with a hint of personality.
 

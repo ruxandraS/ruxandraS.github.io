@@ -10,7 +10,7 @@ layout: index
 
 Feel free to browse through the menu to find the information you are looking for and don’t forget to subscribe to receive the newest updates.
 
-Also if you would like get in touch with me, don’t hesitate to contact me via the channels provided.
+Also if you would like to get in touch with me, don’t hesitate to contact me via the channels provided.
 
 Happy browsing!
 
