@@ -522,7 +522,8 @@ body {
 .content {
   background: #fff;
   color: #515151;
-  padding: 2rem; }
+  padding: 2rem;
+  text-align: justify; }
 
 /* -----------------------------------------------------------
   Mobile view
