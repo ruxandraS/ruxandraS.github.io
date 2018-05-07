@@ -4,7 +4,7 @@
  <title>Ruxandra Simion</title>
  <link href="http://localhost:4000/feed.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-05-07T15:56:15+03:00</updated>
+ <updated>2018-05-07T18:33:11+03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ruxandra Simion</name>
@@ -15,7 +15,7 @@
 	 <entry>
 	   <title>Google Summer of Code 2018: Introduction</title>
 	   <link href="http://localhost:4000/gnome/2018/05/07/welcome-to-my-blog.html"/>
-	   <updated>2018-05-07T10:18:07+03:00</updated>
+	   <updated>2018-05-07T18:30:00+03:00</updated>
 	   <id>http://localhost:4000/gnome/2018/05/07/welcome-to-my-blog</id>
 	   <content type="html">&lt;p&gt;Hi! My name is Ruxandra, but friends call me Ruxe [/ruːksɛ/], and throughout this post I would like to better introduce myself and give you a hint of what my summer journey with GSoC is going to look like.&lt;/p&gt;
 
