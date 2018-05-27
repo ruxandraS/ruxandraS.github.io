@@ -1,0 +1,37 @@
+---
+layout: page
+title: Tags
+---
+
+<div class="tags-expo">
+  <div class="tags-list">
+    {% for tag in site.tags %}
+    <a href="#{{ tag[0] | slugify }}" class="tag-link">
+      <span class="icon">
+        {% include svg/tags.svg %}
+      </span>
+      <span class="tag-name">{{  tag[0]  }}</span>
+    </a>
+    {% endfor %}
+  </div>
+
+  <hr/>
+
+  <div class="tags-expo-section">
+    {% for tag in site.tags %}
+    <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
+    <ul class="tag-link">
+      {% for post in tag[1] %}
+        <a href="{{ site.baseurl }}{{ post.url }}" class="tag-link">
+          <span class="icon">
+            {% include svg/post.svg %}
+          </span>
+          {{ post.title }}
+        </a>
+        <small class="post-date">{{ post.date | date_to_string }}</small>
+        <br>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </div>
+</div>

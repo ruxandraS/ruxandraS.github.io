@@ -15,10 +15,15 @@ title: Recent Blogposts
       {% endif %}
 
       {{ post.content }}
+
       <a href="{{ post.url }}" class="read_more">Go to blogpost></a>
+
+      <hr/>
+
     </div>
   {% endfor %}
 </div>
+
 <div class="pagination">
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ site.baseurl }}/recent_blogs/page{{paginator.next_page}}">Older</a>
