@@ -17,7 +17,7 @@ Feel free to connect with me on any of the channels provided.
 <!-- Contct details -->
 <p>
 	<div style="display:inline-block; min-width:1.5cm; height:1cm; align: center;vertical-align: middle;">
-		<img src="https://ruxandraS.github.io/assets/images/globe.svg" style="height:1cm;"/>
+		<img src="https://ruxandraS.github.io/assets/images/social/globe.svg" style="height:1cm;"/>
 	</div>
 	<div style="display:inline-block;vertical-align: middle;">
 		UTC+02:00
@@ -26,7 +26,7 @@ Feel free to connect with me on any of the channels provided.
 
 <p>
 	<div style="display:inline-block; min-width:1.5cm; height:1cm; align: center;vertical-align: middle;">
-		<img src="https://ruxandraS.github.io/assets/images/irc.svg" style="height:1cm;"/>
+		<img src="https://ruxandraS.github.io/assets/images/social/irc.svg" style="height:1cm;"/>
 	</div>
 	<div style="display:inline-block;vertical-align: middle;">
 		ruxandrasimion
@@ -35,7 +35,7 @@ Feel free to connect with me on any of the channels provided.
 
 <p>
 	<div style="display:inline-block; min-width:1.5cm; height:1cm; align: center;vertical-align: middle;">
-		<img src="https://ruxandraS.github.io/assets/images/gmail.svg" style="height:1cm;"/>
+		<img src="https://ruxandraS.github.io/assets/images/social/gmail.svg" style="height:1cm;"/>
 	</div>
 	<div style="display:inline-block;vertical-align: middle;">
 		ruxandra.simion93@gmail.com
