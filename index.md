@@ -14,4 +14,4 @@ Also if you would like to get in touch with me, don’t hesitate to contact me v
 
 Happy browsing!
 
-<img align="right" src="https://ruxandraS.github.io/assets/images/caticorn.png" width="400"/>
+<img align="right" src="./caticorn.png" width="400"/>
