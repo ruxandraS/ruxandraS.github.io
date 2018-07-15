@@ -4,7 +4,7 @@
  <title>Ruxandra Simion</title>
  <link href="http://localhost:4000/feed.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-07-14T22:27:10+03:00</updated>
+ <updated>2018-07-15T15:01:03+03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ruxandra Simion</name>
@@ -14,13 +14,40 @@
  
 	 <entry>
 	   <title>GUADEC 2018</title>
-	   <link href="http://localhost:4000/gnome/2018/07/14/guadec.html"/>
+	   <link href="http://localhost:4000/gnome/2018/07/14/guadec-2018.html"/>
 	   <updated>2018-07-14T11:00:00+03:00</updated>
-	   <id>http://localhost:4000/gnome/2018/07/14/guadec</id>
-	   <content type="html">&lt;p&gt;Thank you everybody for making this such an unforgettable memory.
-&lt;a href=&quot;https://wiki.gnome.org/Apps/Five%20or%20more&quot;&gt;Five or More&lt;/a&gt;
-&lt;img src=&quot;images/almeria.png.png&quot; alt=&quot;Almeria&quot; /&gt;
-&lt;img src=&quot;https://ruxandraS.github.io/assets/images/almeria.png&quot; /&gt;&lt;/p&gt;
+	   <id>http://localhost:4000/gnome/2018/07/14/guadec-2018</id>
+	   <content type="html">&lt;p&gt;I would like to begin this special blog post by congratulating everybody for contributing to a memorable GUADEC. This was my first time officially attending the GUADEC conference, after attending as a visitor some of the events held in Manchester during the GUADEC 20th edition last year, and this time it was truly an amazing experience.&lt;/p&gt;
+
+&lt;p&gt;After countless talks and many social events that took place during the conference, I have to say my favourite event of them all would definitely have to be the &lt;a href=&quot;https://2018.guadec.org/pages/social-events.html&quot;&gt;newcomers lunch&lt;/a&gt;. At first, I rendered it as nerve-racking. Right before my eyes, the whole thing unfolded as the most frightening social nightmare: having to meet a dozen of unknown people, have lunch and socialise with them, all while avoiding the embarrassment of smiling mid-lunch with a piece of spinach stuck between my teeth (imagine the horror 😬). Looking back now I laugh every time I remember this initial thought. I had the chance to meet some of my favourite GUADEC attendees, whom I might not have otherwise met, and I looked forward to seeing them all together ever since. Therefore, it is really fitting I thank Carlos Soriano for bringing us together and mediating our nice little lunch break so wonderfully and a thank you goes also to all of my newcomer fellows for being so easy-going about it.&lt;/p&gt;
+
+&lt;p&gt;However, some of my other favourite events included the talks which took place during the core days. And I would have to say my top favourite included &lt;a href=&quot;https://2018.guadec.org/pages/talks-and-events.html#abstract-114-unconference-1&quot;&gt;Building for Humans&lt;/a&gt; and &lt;a href=&quot;https://2018.guadec.org/pages/talks-and-events.html#abstract-19-designing_gnome_mobile&quot;&gt;Designing Gnome Mobile&lt;/a&gt;, but all of the other talks I attended to were equally interesting, inspiring and easy to follow.&lt;/p&gt;
+
+&lt;p&gt;I also had the opportunity to deliver a lightning speech on modernising &lt;a href=&quot;https://wiki.gnome.org/Apps/Five%20or%20more&quot;&gt;Five or More&lt;/a&gt; during the &lt;a href=&quot;https://2018.guadec.org/pages/talks-and-events.html#abstract-102-intern_and_newcomer_lightning_talks&quot;&gt;newcomer lightning talks&lt;/a&gt; time slot, and then to listen to the other newcomers talking about the interesting projects they are currently working on and the progress they achieved thus far.&lt;/p&gt;
+
+&lt;p&gt;I am very lucky to have chosen to contribute to GNOME as a GSoC student, as I felt truly welcomed in the community. I am also overjoyed to have had the chance to attend GUADEC, and I will hopefully get to see you all at GUADEC in the years to come. ✨&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+	&lt;img src=&quot;https://ruxandraS.github.io/assets/images/almeria.png&quot; width=&quot;400&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I would like to thank through this blogpost the organising team for the effort and dedication put into holding the GUADEC conference in the beautiful city of Almeria. Without all of your hard work I would not be writing this post now.&lt;/p&gt;
+
+&lt;p&gt;To the women of GNOME, thank you for kindly receiving me at the &lt;a href=&quot;https://2018.guadec.org/pages/social-events.html&quot;&gt;women’s dinner&lt;/a&gt; and sharing your experiences with me. I truly appreciate it, and I will try my best to keep in touch with you all and continue to share ideas and experiences with you.&lt;/p&gt;
+
+&lt;p&gt;Thank you to everyone who interacted with me after delivering the lightning speech on modernising &lt;a href=&quot;https://wiki.gnome.org/Apps/Five%20or%20more&quot;&gt;Five or More&lt;/a&gt;. It really means the world to me you came by to say hi, are willing to offer feedback, or even help with some aspects.&lt;/p&gt;
+
+&lt;p&gt;Also, a big thank you goes to the GNOME foundation for offering travel and accommodation sponsorship.&lt;/p&gt;
+
+&lt;p&gt;Thank you everybody, again, for making this such an unforgettable memory.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+	&lt;img src=&quot;https://ruxandraS.github.io/assets/images/sponsored-by-gnome-foundation.png&quot; width=&quot;400&quot; /&gt;
+&lt;/div&gt;
 
 </content>
 	 </entry>
