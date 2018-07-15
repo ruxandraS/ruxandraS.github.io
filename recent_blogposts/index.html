@@ -2,6 +2,7 @@
 layout: page
 title: Recent Blogposts
 ---
+<br>
 <div class="posts" id="Recent">
   {% for post in paginator.posts %}
     <div class="post">
@@ -23,6 +24,8 @@ title: Recent Blogposts
           </a>
         {% endfor %}
       {% endif %}
+
+      <br><br>
 
       {{ post.content }}
 
