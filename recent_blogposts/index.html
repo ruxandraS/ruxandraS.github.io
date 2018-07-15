@@ -10,7 +10,10 @@ title: Recent Blogposts
           {{ post.title }}
         </a>
       </h1>
-      {% if post.tags %}
+
+      <span class="post-date">{{ post.date | date_to_string }}</span>&nbsp;
+
+      {% if post.tags %} |
         {% for tag in post.tags %}
           <a href="{{ site.baseurl }}{{ site.blogurl }}{{ site.tagurl }}#{{ tag | slugify }}" class="tag-link">
             <span class="icon">
