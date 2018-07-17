@@ -4,13 +4,58 @@
  <title>Ruxandra Simion</title>
  <link href="http://localhost:4000/feed.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-07-15T22:22:23+03:00</updated>
+ <updated>2018-07-17T15:35:20+03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ruxandra Simion</name>
    <email>ruxandrasimion93@gmail.com</email>
  </author>
 
+ 
+	 <entry>
+	   <title>Five-or-More Progress Report</title>
+	   <link href="http://localhost:4000/gnome/2018/07/17/five-or-more-progress.html"/>
+	   <updated>2018-07-17T11:00:00+03:00</updated>
+	   <id>http://localhost:4000/gnome/2018/07/17/five-or-more-progress</id>
+	   <content type="html">&lt;p&gt;Over the course of the past couple of months, I was able to achieve a promising progress in modernising &lt;a href=&quot;https://wiki.gnome.org/Apps/Five%20or%20more&quot;&gt;Five or More&lt;/a&gt;, although I would have to say there is a fair share of aspects to tackle yet.&lt;/p&gt;
+
+&lt;p&gt;I opted for rewriting the code module by module, without combining C and Vala code. There was was an &lt;a href=&quot;https://gitlab.gnome.org/GNOME/five-or-more/tree/vala-port&quot;&gt;old attempt&lt;/a&gt; to port &lt;a href=&quot;https://wiki.gnome.org/Apps/Five%20or%20more&quot;&gt;Five or More&lt;/a&gt; to Vala, but I chose not to use it due to the fact that the &lt;a href=&quot;https://gitlab.gnome.org/GNOME/five-or-more/tree/vala-port&quot;&gt;partial port&lt;/a&gt; was 4 years old and it definitely needed an update, which might have taken quite some time, and might have produced some nasty bugs. While doing so, I paid extra attention to keep things nicely separated: all of the currently ported modules separate the game logic from the drawing logic and the UI.&lt;/p&gt;
+
+&lt;p&gt;I also managed to port the app menu and the preferences window. However, due to the new &lt;a href=&quot;https://wiki.gnome.org/Initiatives/GnomeGoals/AppMenuRetirement&quot;&gt;design gudelines&lt;/a&gt;, which are currently only in the state of a proposal, the app menu might require future alterations.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+	&lt;img src=&quot;https://ruxandraS.github.io/assets/images/progress-report-1/1-app-menu.gif&quot; width=&quot;500&quot; /&gt;
+	&lt;center&gt;App Menu access with functional callbacks&lt;/center&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The app window is currently resizable and it sports a customisable coloured board. After each click, the next shapes contained inside the next pieces widget are being spawned inside the game board.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+	&lt;img src=&quot;https://ruxandraS.github.io/assets/images/progress-report-1/2-change-color.gif&quot; width=&quot;500&quot; /&gt;
+	&lt;center&gt;Changing the board colour from the Preferences menu&lt;/center&gt;
+	&lt;br /&gt;
+	&lt;img src=&quot;https://ruxandraS.github.io/assets/images/progress-report-1/3-change-boardsize.gif&quot; width=&quot;500&quot; /&gt;
+	&lt;center&gt;Changing the board size from the Preferences menu and resizing the window (for some reason there is a colour flick when recording the screen for this one)&lt;/center&gt;
+	&lt;br /&gt;
+	&lt;img src=&quot;https://ruxandraS.github.io/assets/images/progress-report-1/4-spawn-next.gif&quot; width=&quot;500&quot; /&gt;
+	&lt;center&gt;Clicking inside the game board area&lt;/center&gt;
+	&lt;br /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I am currently working on the pathfinding algorithm, which will basically allow the user to move an element from cell A to cell B inside the game grid.&lt;/p&gt;
+
+&lt;p&gt;The short todo list includes adding the game over logic and implementing both the scores and high scores system, by using the &lt;a href=&quot;https://gitlab.gnome.org/GNOME/libgnome-games-support&quot;&gt;libgnome-games-support&lt;/a&gt;. There are also some extra-features to be added, such as animations, sounds and gamepad-support, and providing a fresh looking UI.&lt;/p&gt;
+
+</content>
+	 </entry>
  
 	 <entry>
 	   <title>GUADEC 2018</title>

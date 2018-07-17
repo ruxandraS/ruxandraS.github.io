@@ -327,6 +327,96 @@
   
     <div class="post">
       <h1 class="post-title">
+        <a href="/gnome/2018/07/17/five-or-more-progress.html">
+          Five-or-More Progress Report
+        </a>
+      </h1>
+
+      <span class="post-date">17 Jul 2018</span>&nbsp;
+
+       |
+        
+          <a href="/recent_blogposts/tags#five-or-more" class="tag-link">
+            <span class="icon">
+              <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+            </span>
+            <span class="tag-name">Five-or-More</span>
+          </a>
+        
+          <a href="/recent_blogposts/tags#gnome" class="tag-link">
+            <span class="icon">
+              <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+            </span>
+            <span class="tag-name">GNOME</span>
+          </a>
+        
+          <a href="/recent_blogposts/tags#gsoc" class="tag-link">
+            <span class="icon">
+              <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+            </span>
+            <span class="tag-name">GSoC</span>
+          </a>
+        
+      
+
+      <br><br>
+
+      <p>Over the course of the past couple of months, I was able to achieve a promising progress in modernising <a href="https://wiki.gnome.org/Apps/Five%20or%20more">Five or More</a>, although I would have to say there is a fair share of aspects to tackle yet.</p>
+
+<p>I opted for rewriting the code module by module, without combining C and Vala code. There was was an <a href="https://gitlab.gnome.org/GNOME/five-or-more/tree/vala-port">old attempt</a> to port <a href="https://wiki.gnome.org/Apps/Five%20or%20more">Five or More</a> to Vala, but I chose not to use it due to the fact that the <a href="https://gitlab.gnome.org/GNOME/five-or-more/tree/vala-port">partial port</a> was 4 years old and it definitely needed an update, which might have taken quite some time, and might have produced some nasty bugs. While doing so, I paid extra attention to keep things nicely separated: all of the currently ported modules separate the game logic from the drawing logic and the UI.</p>
+
+<p>I also managed to port the app menu and the preferences window. However, due to the new <a href="https://wiki.gnome.org/Initiatives/GnomeGoals/AppMenuRetirement">design gudelines</a>, which are currently only in the state of a proposal, the app menu might require future alterations.</p>
+
+<p><br /></p>
+
+<div align="center">
+	<img src="https://ruxandraS.github.io/assets/images/progress-report-1/1-app-menu.gif" width="500" />
+	<center>App Menu access with functional callbacks</center>
+</div>
+
+<p><br /></p>
+
+<p>The app window is currently resizable and it sports a customisable coloured board. After each click, the next shapes contained inside the next pieces widget are being spawned inside the game board.</p>
+
+<p><br /></p>
+
+<div align="center">
+	<img src="https://ruxandraS.github.io/assets/images/progress-report-1/2-change-color.gif" width="500" />
+	<center>Changing the board colour from the Preferences menu</center>
+	<br />
+	<img src="https://ruxandraS.github.io/assets/images/progress-report-1/3-change-boardsize.gif" width="500" />
+	<center>Changing the board size from the Preferences menu and resizing the window (for some reason there is a colour flick when recording the screen for this one)</center>
+	<br />
+	<img src="https://ruxandraS.github.io/assets/images/progress-report-1/4-spawn-next.gif" width="500" />
+	<center>Clicking inside the game board area</center>
+	<br />
+</div>
+
+<p><br /></p>
+
+<p>I am currently working on the pathfinding algorithm, which will basically allow the user to move an element from cell A to cell B inside the game grid.</p>
+
+<p>The short todo list includes adding the game over logic and implementing both the scores and high scores system, by using the <a href="https://gitlab.gnome.org/GNOME/libgnome-games-support">libgnome-games-support</a>. There are also some extra-features to be added, such as animations, sounds and gamepad-support, and providing a fresh looking UI.</p>
+
+
+
+      <a href="/gnome/2018/07/17/five-or-more-progress.html" class="read_more">Go to blogpost></a>
+
+      <hr/>
+
+    </div>
+  
+    <div class="post">
+      <h1 class="post-title">
         <a href="/gnome/2018/07/15/guadec-2018.html">
           GUADEC 2018
         </a>
