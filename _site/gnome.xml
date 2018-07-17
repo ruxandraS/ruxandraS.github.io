@@ -4,7 +4,7 @@
  <title>Ruxandra Simion</title>
  <link href="http://localhost:4000/gnome.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-07-17T15:35:20+03:00</updated>
+ <updated>2018-07-17T16:04:22+03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ruxandra Simion</name>
@@ -14,7 +14,7 @@
  
     
          <entry>
-           <title>Five-or-More Progress Report</title>
+           <title>Five-or-More Modernisation - Progress Report</title>
            <link href="http://localhost:4000/gnome/2018/07/17/five-or-more-progress.html"/>
            <updated>2018-07-17T11:00:00+03:00</updated>
            <id>http://localhost:4000/gnome/2018/07/17/five-or-more-progress</id>
@@ -51,7 +51,7 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;I am currently working on the pathfinding algorithm, which will basically allow the user to move an element from cell A to cell B inside the game grid.&lt;/p&gt;
+&lt;p&gt;I am currently working on the pathfinding algorithm, which will basically allow the user to move a shape from cell A to cell B inside the game grid.&lt;/p&gt;
 
 &lt;p&gt;The short todo list includes adding the game over logic and implementing both the scores and high scores system, by using the &lt;a href=&quot;https://gitlab.gnome.org/GNOME/libgnome-games-support&quot;&gt;libgnome-games-support&lt;/a&gt;. There are also some extra-features to be added, such as animations, sounds and gamepad-support, and providing a fresh looking UI.&lt;/p&gt;
 
@@ -78,7 +78,7 @@
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;div align=&quot;center&quot;&gt;
-	&lt;img src=&quot;https://ruxandraS.github.io/assets/images/almeria.png&quot; width=&quot;400&quot; /&gt;
+	&lt;img src=&quot;https://ruxandraS.github.io/assets/images/guadec-2018/almeria.png&quot; width=&quot;400&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -96,7 +96,7 @@
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;div align=&quot;center&quot;&gt;
-	&lt;img src=&quot;https://ruxandraS.github.io/assets/images/sponsored-by-gnome-foundation.png&quot; width=&quot;400&quot; /&gt;
+	&lt;img src=&quot;https://ruxandraS.github.io/assets/images/guadec-2018/sponsored-by-gnome-foundation.png&quot; width=&quot;400&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
