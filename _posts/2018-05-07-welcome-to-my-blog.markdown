@@ -3,7 +3,7 @@ layout:   post
 title:    "Google Summer of Code 2018: Introduction"
 date:     2018-05-07 16:30:00 +0100
 category: GNOME
-tags:     GNOME GSoC Five-or-More
+tags:     Five-or-More GNOME GSoC
 ---
 
 Hi! My name is Ruxandra, but friends call me Ruxe [/ruːksɛ/], and throughout this post I would like to better introduce myself and give you a hint of what my summer journey with GSoC is going to look like.

@@ -3,7 +3,7 @@ layout:     post
 title:      "Five or More Modernisation Overview"
 date:       2018-05-28 09:00:00 +0200
 category:   GNOME
-tags:       GNOME GSoC Five-or-More
+tags:       Five-or-More GNOME GSoC
 ---
 
 Before jumping right into the [Five or More][five-or-more] implementation plan and details, I would like to keep you updated with the progress made thus far.
