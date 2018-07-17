@@ -19,7 +19,7 @@ I am very lucky to have chosen to contribute to GNOME as a GSoC student, as I fe
 <br>
 
 <div align="center">
-	<img src="https://ruxandraS.github.io/assets/images/almeria.png"  width="400"/>
+	<img src="https://ruxandraS.github.io/assets/images/guadec-2018/almeria.png"  width="400"/>
 </div>
 
 <br>
@@ -37,7 +37,7 @@ Thank you everybody, again, for making this such an unforgettable memory.
 <br>
 
 <div align="center">
-	<img src="https://ruxandraS.github.io/assets/images/sponsored-by-gnome-foundation.png"  width="400"/>
+	<img src="https://ruxandraS.github.io/assets/images/guadec-2018/sponsored-by-gnome-foundation.png"  width="400"/>
 </div>
 
 <br>
