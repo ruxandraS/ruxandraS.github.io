@@ -4,13 +4,51 @@
  <title>Ruxandra Simion</title>
  <link href="http://localhost:4000/feed.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-07-17T16:04:22+03:00</updated>
+ <updated>2018-07-30T22:16:55+03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ruxandra Simion</name>
    <email>ruxandrasimion93@gmail.com</email>
  </author>
 
+ 
+	 <entry>
+	   <title>Five-or-More Modernisation - Now They Move!</title>
+	   <link href="http://localhost:4000/gnome/2018/07/30/five-or-more-progress-2.html"/>
+	   <updated>2018-07-30T21:30:00+03:00</updated>
+	   <id>http://localhost:4000/gnome/2018/07/30/five-or-more-progress-2</id>
+	   <content type="html">&lt;p&gt;These past two weeks I have worked on (probably) the most exciting part of modernising the &lt;a href=&quot;https://wiki.gnome.org/Apps/Five%20or%20more&quot;&gt;Five or More&lt;/a&gt; game. After the new changes, the game is officially playable and fun! But still, there is room for more changes. So let’s jump right to the updates.&lt;/p&gt;
+
+&lt;p&gt;First of all, if you remember reading &lt;a href=&quot;https://ruxandras.github.io/gnome/2018/07/17/five-or-more-progress.html&quot;&gt;my previous blog post&lt;/a&gt;, there were no means to interact with a shape, or otherwise move it to any desired cell. The cells inside the game board were &lt;a href=&quot;https://ruxandras.github.io/assets/images/progress-report-1/4-spawn-next.gif&quot;&gt;filled up randomly&lt;/a&gt; on click, using the queue on the top left corner of the window, which contained the next shapes to be rendered inside the game area.&lt;/p&gt;
+
+&lt;p&gt;Now, all of that changed, and the user can interact with each individual shape rendered on the game board. The pathfinding system I came up with uses the A* algorithm with a Manhattan distance heuristic to determine the shortest path from the current cell to the destination cell chosen by the player.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+	&lt;img src=&quot;https://ruxandraS.github.io/assets/images/progress-report-2/1-player-shape-interaction.gif&quot; width=&quot;500&quot; /&gt;
+	&lt;center&gt;Player interaction with shapes&lt;/center&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Next, I continued to work on making five (or more 😄) shapes of the same kind aligned in a row, column or diagonal, disappear from the board…&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+	&lt;img src=&quot;https://ruxandraS.github.io/assets/images/progress-report-2/2-match.gif&quot; width=&quot;500&quot; /&gt;
+	&lt;center&gt;Matching five or more shapes in a row&lt;/center&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;… and whenever that happens, the player receives points as a result, which are displayed on the top-right corner of the window.&lt;/p&gt;
+
+&lt;p&gt;Once I reviewed the screen recordings, I realised I am actually not as good at playing this game. 🙈&lt;/p&gt;
+
+</content>
+	 </entry>
  
 	 <entry>
 	   <title>Five-or-More Modernisation - Progress Report</title>
