@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Five-or-More Modernisation - Progress Report"
+title:      "Five-or-More Modernisation: Progress Report"
 date:       2018-07-17 10:00:00 +0200
 category:   GNOME
 tags:       Five-or-More GNOME GSoC

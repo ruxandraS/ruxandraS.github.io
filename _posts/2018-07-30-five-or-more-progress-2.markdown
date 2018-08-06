@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Five-or-More Modernisation - Now They Move!"
+title:      "Five-or-More Modernisation: Now They Move!"
 date:       2018-07-30 20:30:00 +0200
 category:   GNOME
 tags:       Five-or-More GNOME GSoC

@@ -4,7 +4,7 @@
  <title>Ruxandra Simion</title>
  <link href="http://localhost:4000/gnome.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-07-30T22:16:55+03:00</updated>
+ <updated>2018-08-06T20:46:48+03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ruxandra Simion</name>
@@ -14,7 +14,7 @@
  
     
          <entry>
-           <title>Five-or-More Modernisation - Now They Move!</title>
+           <title>Five-or-More Modernisation: Now They Move!</title>
            <link href="http://localhost:4000/gnome/2018/07/30/five-or-more-progress-2.html"/>
            <updated>2018-07-30T21:30:00+03:00</updated>
            <id>http://localhost:4000/gnome/2018/07/30/five-or-more-progress-2</id>
@@ -54,7 +54,7 @@
  
     
          <entry>
-           <title>Five-or-More Modernisation - Progress Report</title>
+           <title>Five-or-More Modernisation: Progress Report</title>
            <link href="http://localhost:4000/gnome/2018/07/17/five-or-more-progress.html"/>
            <updated>2018-07-17T11:00:00+03:00</updated>
            <id>http://localhost:4000/gnome/2018/07/17/five-or-more-progress</id>
@@ -147,7 +147,7 @@
  
     
          <entry>
-           <title>Five or More Modernisation Overview</title>
+           <title>Five or More Modernisation: Overview</title>
            <link href="http://localhost:4000/gnome/2018/05/28/five-or-more-modernisation-overview.html"/>
            <updated>2018-05-28T10:00:00+03:00</updated>
            <id>http://localhost:4000/gnome/2018/05/28/five-or-more-modernisation-overview</id>

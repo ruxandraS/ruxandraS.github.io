@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Five or More Modernisation Overview"
+title:      "Five or More Modernisation: Overview"
 date:       2018-05-28 09:00:00 +0200
 category:   GNOME
 tags:       Five-or-More GNOME GSoC
