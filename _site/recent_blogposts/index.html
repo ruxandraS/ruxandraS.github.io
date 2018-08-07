@@ -331,6 +331,109 @@
   
     <div class="post">
       <h1 class="post-title">
+        <a href="/gnome/2018/08/07/five-or-more-progress-3.html">
+          Five-or-More Modernisation: Now You Can Properly Play It
+        </a>
+      </h1>
+
+      <span class="post-date">07 Aug 2018</span>&nbsp;
+
+       |
+        
+          <a href="/recent_blogposts/tags#five-or-more" class="tag-link">
+            <span class="icon">
+              <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+            </span>
+            <span class="tag-name">Five-or-More</span>
+          </a>
+        
+          <a href="/recent_blogposts/tags#gnome" class="tag-link">
+            <span class="icon">
+              <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+            </span>
+            <span class="tag-name">GNOME</span>
+          </a>
+        
+          <a href="/recent_blogposts/tags#gsoc" class="tag-link">
+            <span class="icon">
+              <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+            </span>
+            <span class="tag-name">GSoC</span>
+          </a>
+        
+      
+
+      <br><br>
+
+      <p>As Google Summer of Code is officially drawing to an end, all of my attention was focused towards making the <a href="https://wiki.gnome.org/Apps/Five%20or%20more">Five or More</a> Vala version feature-complete. As you probably already know from <a href="https://ruxandras.github.io/gnome/2018/07/30/five-or-more-progress-2.html">my previous blog post</a>, the game was somehow playable at that time, but it was missing some of the key features included in the old version.</p>
+
+<p>So what’s new this time? First and foremost, you can surely notice the game board now sports a grid, which wasn’t there until now. On the same note, there are also animations used for clicking a piece on the board, for an improved gaming experience. For further accessibility, some header bar hints are available at different stages in the game: at the start of any new game, at the end of each game, as well as whenever there is no clear path between the initial position and the cell indicated by the user for the current move.</p>
+
+<p><br /></p>
+
+<div align="center">
+	<img src="https://ruxandraS.github.io/assets/images/progress-report-3/1-overall-look.gif" width="500" />
+	<center>Overall final game look</center>
+</div>
+
+<p><br /></p>
+
+<p>By using <a href="https://gitlab.gnome.org/GNOME/libgnome-games-support">libgnome-games-support</a>, I was able to implement a high scores table, which gets updated each time the player gets a score ranging in the top 10 highest scores for the chosen board size. The high scores for each of all of the three categories can also be viewed as showed in the screencast below. Also, you can see I have done quite my fair share of testing the functionalities and assuring everything worked as planned 😄.</p>
+
+<p><br /></p>
+
+<div align="center">
+	<img src="https://ruxandraS.github.io/assets/images/progress-report-3/2-high-scores.gif" width="500" />
+	<center>High scores</center>
+</div>
+
+<p><br /></p>
+
+<p>Further changes include theme changing, although this momentarily only works for the vector themes available in <a href="https://wiki.gnome.org/Apps/Five%20or%20more">Five or More</a>, namely the ball and shape themes, as implementation for raster images is not fully functional as of this moment.</p>
+
+<p><br /></p>
+
+<div align="center">
+	<img src="https://ruxandraS.github.io/assets/images/progress-report-3/3-change-theme.gif" width="500" />
+	<center>Changing theme</center>
+</div>
+
+<p><br /></p>
+
+<p>Also, now window size is being saved in between runs, so each time the game starts it will take into consideration the last window size settings, including wether the window was full screened or not.</p>
+
+<p>As for the most exciting change revealed in this blog post, it concerns playing <a href="https://wiki.gnome.org/Apps/Five%20or%20more">Five or More</a> using keyboard controls. Basically, the user can play the game by navigating with the keyboard arrows, the home, end, page up, page down and space, enter or return keys, as described in the <a href="https://help.gnome.org/users/five-or-more/stable/play.html.en">wikipage section for using the keyboard</a>.</p>
+
+<p><br /></p>
+
+<div align="center">
+	<img src="https://ruxandraS.github.io/assets/images/progress-report-3/4-keyboard-controls.gif" width="500" />
+	<center>Playing Five-or-More usig keyboard controls</center>
+</div>
+
+<p><br /></p>
+
+<p>If you have been following my journey with GSoC up closely, you probablly remember me mentioning something about extra-features in <a href="https://ruxandras.github.io/gnome/2018/05/07/welcome-to-my-blog.html">my first blog post</a>, such as adding gamepad support, sounds, or making some design changes. I need to say I feel optimistic about getting some of these features done in the weeks to come, post GSoC. I feel the ground has been already laid down somehow for gamepad support by adding keyboard controls. Also, <a href="https://wiki.gnome.org/Apps/Five%20or%20more">Five or More</a> has already undergone some slight design changes, such as widget spacing and alignment.</p>
+
+
+
+      <a href="/gnome/2018/08/07/five-or-more-progress-3.html" class="read_more">Go to blogpost></a>
+
+      <hr/>
+
+    </div>
+  
+    <div class="post">
+      <h1 class="post-title">
         <a href="/gnome/2018/07/30/five-or-more-progress-2.html">
           Five-or-More Modernisation: Now They Move!
         </a>
@@ -586,77 +689,6 @@
 
 
       <a href="/gnome/2018/07/15/guadec-2018.html" class="read_more">Go to blogpost></a>
-
-      <hr/>
-
-    </div>
-  
-    <div class="post">
-      <h1 class="post-title">
-        <a href="/gnome/2018/05/28/five-or-more-modernisation-overview.html">
-          Five or More Modernisation: Overview
-        </a>
-      </h1>
-
-      <span class="post-date">28 May 2018</span>&nbsp;
-
-       |
-        
-          <a href="/recent_blogposts/tags#five-or-more" class="tag-link">
-            <span class="icon">
-              <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-    <path d="M0 0h24v24H0z" fill="none"/>
-    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
-</svg>
-            </span>
-            <span class="tag-name">Five-or-More</span>
-          </a>
-        
-          <a href="/recent_blogposts/tags#gnome" class="tag-link">
-            <span class="icon">
-              <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-    <path d="M0 0h24v24H0z" fill="none"/>
-    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
-</svg>
-            </span>
-            <span class="tag-name">GNOME</span>
-          </a>
-        
-          <a href="/recent_blogposts/tags#gsoc" class="tag-link">
-            <span class="icon">
-              <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-    <path d="M0 0h24v24H0z" fill="none"/>
-    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
-</svg>
-            </span>
-            <span class="tag-name">GSoC</span>
-          </a>
-        
-      
-
-      <br><br>
-
-      <p>Before jumping right into the <a href="https://wiki.gnome.org/Apps/Five%20or%20more">Five or More</a> implementation plan and details, I would like to keep you updated with the progress made thus far.</p>
-
-<p>I started working on some project-related tasks during the community bonding period, to cover up for the upcoming exam and research session and any other time frame in which I might not be as active as I would like to. Also, during this period, I had a previously announced one week trip, which kept me from working more on the project.</p>
-
-<p>I began by reading the <a href="https://wiki.gnome.org/Projects/Vala/Tutorial">Vala tutorial</a>; I considered this was a very important first step as I have to first be aware of all the capabilities of the language before being able to put them to good use in porting <a href="https://wiki.gnome.org/Apps/Five%20or%20more">Five or More</a> to Vala.</p>
-
-<p>In order to practice a bit with Vala and Gtk+, I proceeded to set up a basic project in GNOME Builder. I encountered a couple of problems, out of which one was solved by updating to the <a href="https://flathub.org/apps/details/org.gnome.Builder">latest Builder available on flathub</a>, and the other one led to opening an <a href="https://gitlab.gnome.org/GNOME/gnome-builder/issues/506">issue on the gnome-builder GitLab repository</a>. The two experiments I worked on mostly revolved around analysing the code generated by GNOME Builder as best practices starting template, and can be found on <a href="https://github.com/ruxandraS/vala-gtk-examples">my GitHub repository</a>. While working on the two simple apps, I also used <a href="https://glade.gnome.org/">Glade</a> to better understand how the UI templates work and the <a href="https://wiki.gnome.org/Projects/GTK%2B/Inspector">GtkInspector</a> tool to analyse them. I plan on doing more such experiments in the future, while working on the migration of <a href="https://wiki.gnome.org/Apps/Five%20or%20more">Five or More</a> to Vala, and add them to the previously mentioned <a href="https://github.com/ruxandraS/vala-gtk-examples">repository</a>.</p>
-
-<p>Now moving onto the implementation plan for <a href="https://wiki.gnome.org/Apps/Five%20or%20more">Five or More</a>, as mentioned in my previous blog post, I would like to split the development process in a series of steps, working on one component at a time; this will allow me to test each new component after integration and fix issues in a timely manner, and also to better track the progress. I agreed with my mentor, Robert Roth, on following a top down approach, which essentially means that I will be starting with porting the topmost component, the application itself, and then progress towards the more complex tasks, such as implementing the game grid.</p>
-
-<p>I will first create a second src folder (e.g. src-vala) where I will work on the Vala code, since I plan on maintaining a functional C version in the repository, until the port is complete. This way, I can easily ensure both the C and the Vala versions have the same set of features and the functionality remains the same.</p>
-
-<p>Then, I intend to create a basic Vala app and window based on the template generated by GNOME Builder, only using the UI file that already exists in the <a href="https://gitlab.gnome.org/GNOME/five-or-more">Five or More repository</a>. If everything goes as planned, I will start adding one component at a time in the short run, starting with the application menu, the callbacks for the UI buttons, the preferences window, the score and the preview widgets, and lastly, the game area.</p>
-
-<p>Only after I’m done replicating the existing functionality, I will take into account adding new features such as the ones mentioned in the previous post, namely sound, gamepad support or design changes.</p>
-
-<p>Suggestions and feedback are highly appreciated, especially in the early stages of development, so don’t hesitate to leave me a comment or contact me via the <a href="https://ruxandras.github.io/about/">channels provided</a>.</p>
-
-
-
-      <a href="/gnome/2018/05/28/five-or-more-modernisation-overview.html" class="read_more">Go to blogpost></a>
 
       <hr/>
 

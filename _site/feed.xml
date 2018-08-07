@@ -4,13 +4,71 @@
  <title>Ruxandra Simion</title>
  <link href="http://localhost:4000/feed.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-08-06T20:46:48+03:00</updated>
+ <updated>2018-08-07T21:49:19+03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ruxandra Simion</name>
    <email>ruxandrasimion93@gmail.com</email>
  </author>
 
+ 
+	 <entry>
+	   <title>Five-or-More Modernisation: Now You Can Properly Play It</title>
+	   <link href="http://localhost:4000/gnome/2018/08/07/five-or-more-progress-3.html"/>
+	   <updated>2018-08-07T21:30:00+03:00</updated>
+	   <id>http://localhost:4000/gnome/2018/08/07/five-or-more-progress-3</id>
+	   <content type="html">&lt;p&gt;As Google Summer of Code is officially drawing to an end, all of my attention was focused towards making the &lt;a href=&quot;https://wiki.gnome.org/Apps/Five%20or%20more&quot;&gt;Five or More&lt;/a&gt; Vala version feature-complete. As you probably already know from &lt;a href=&quot;https://ruxandras.github.io/gnome/2018/07/30/five-or-more-progress-2.html&quot;&gt;my previous blog post&lt;/a&gt;, the game was somehow playable at that time, but it was missing some of the key features included in the old version.&lt;/p&gt;
+
+&lt;p&gt;So what’s new this time? First and foremost, you can surely notice the game board now sports a grid, which wasn’t there until now. On the same note, there are also animations used for clicking a piece on the board, for an improved gaming experience. For further accessibility, some header bar hints are available at different stages in the game: at the start of any new game, at the end of each game, as well as whenever there is no clear path between the initial position and the cell indicated by the user for the current move.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+	&lt;img src=&quot;https://ruxandraS.github.io/assets/images/progress-report-3/1-overall-look.gif&quot; width=&quot;500&quot; /&gt;
+	&lt;center&gt;Overall final game look&lt;/center&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;By using &lt;a href=&quot;https://gitlab.gnome.org/GNOME/libgnome-games-support&quot;&gt;libgnome-games-support&lt;/a&gt;, I was able to implement a high scores table, which gets updated each time the player gets a score ranging in the top 10 highest scores for the chosen board size. The high scores for each of all of the three categories can also be viewed as showed in the screencast below. Also, you can see I have done quite my fair share of testing the functionalities and assuring everything worked as planned 😄.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+	&lt;img src=&quot;https://ruxandraS.github.io/assets/images/progress-report-3/2-high-scores.gif&quot; width=&quot;500&quot; /&gt;
+	&lt;center&gt;High scores&lt;/center&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Further changes include theme changing, although this momentarily only works for the vector themes available in &lt;a href=&quot;https://wiki.gnome.org/Apps/Five%20or%20more&quot;&gt;Five or More&lt;/a&gt;, namely the ball and shape themes, as implementation for raster images is not fully functional as of this moment.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+	&lt;img src=&quot;https://ruxandraS.github.io/assets/images/progress-report-3/3-change-theme.gif&quot; width=&quot;500&quot; /&gt;
+	&lt;center&gt;Changing theme&lt;/center&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Also, now window size is being saved in between runs, so each time the game starts it will take into consideration the last window size settings, including wether the window was full screened or not.&lt;/p&gt;
+
+&lt;p&gt;As for the most exciting change revealed in this blog post, it concerns playing &lt;a href=&quot;https://wiki.gnome.org/Apps/Five%20or%20more&quot;&gt;Five or More&lt;/a&gt; using keyboard controls. Basically, the user can play the game by navigating with the keyboard arrows, the home, end, page up, page down and space, enter or return keys, as described in the &lt;a href=&quot;https://help.gnome.org/users/five-or-more/stable/play.html.en&quot;&gt;wikipage section for using the keyboard&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+	&lt;img src=&quot;https://ruxandraS.github.io/assets/images/progress-report-3/4-keyboard-controls.gif&quot; width=&quot;500&quot; /&gt;
+	&lt;center&gt;Playing Five-or-More usig keyboard controls&lt;/center&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you have been following my journey with GSoC up closely, you probablly remember me mentioning something about extra-features in &lt;a href=&quot;https://ruxandras.github.io/gnome/2018/05/07/welcome-to-my-blog.html&quot;&gt;my first blog post&lt;/a&gt;, such as adding gamepad support, sounds, or making some design changes. I need to say I feel optimistic about getting some of these features done in the weeks to come, post GSoC. I feel the ground has been already laid down somehow for gamepad support by adding keyboard controls. Also, &lt;a href=&quot;https://wiki.gnome.org/Apps/Five%20or%20more&quot;&gt;Five or More&lt;/a&gt; has already undergone some slight design changes, such as widget spacing and alignment.&lt;/p&gt;
+
+</content>
+	 </entry>
  
 	 <entry>
 	   <title>Five-or-More Modernisation: Now They Move!</title>
