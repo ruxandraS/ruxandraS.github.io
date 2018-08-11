@@ -11,7 +11,7 @@
 
   <title>
     
-      Five-or-More Modernisation: Now They Move! &middot; Ruxandra Simion
+      Five-or-More Modernisation: It's a Wrap &middot; Ruxandra Simion
     
   </title>
 
@@ -323,11 +323,11 @@
 
     <main class="container">
       <header>
-  <h1 class="post-title">Five-or-More Modernisation: Now They Move!</h1>
+  <h1 class="post-title">Five-or-More Modernisation: It's a Wrap</h1>
 </header>
 <div class="content">
   <div class="post-meta">
-  <span class="post-date">30 Jul 2018</span>
+  <span class="post-date">11 Aug 2018</span>
   <span class="post-categories">
     
       &bull;
@@ -343,35 +343,41 @@
 </div>
 
   <div class="post-body">
-    <p>These past two weeks I have worked on (probably) the most exciting part of modernising the <a href="https://wiki.gnome.org/Apps/Five%20or%20more">Five or More</a> game. After the new changes, the game is officially playable and fun! But still, there is room for more changes. So let’s jump right to the updates.</p>
+    <p>As probably most of you already know, or recently found out, at the beginning of this week the GSoC coding period officially ended, and it is time for us, GSoC students, to submit our final evaluations and the results we achieved thus far. This blog post, as you can probably tell from the title, will be a summary of all of the work I put into modernising <a href="https://wiki.gnome.org/Apps/Five%20or%20more">Five or More</a> throughout the summer months.</p>
 
-<p>First of all, if you remember reading <a href="https://ruxandras.github.io/gnome/2018/07/17/five-or-more-progress.html">my previous blog post</a>, there were no means to interact with a shape, or otherwise move it to any desired cell. The cells inside the game board were <a href="https://ruxandras.github.io/assets/images/progress-report-1/4-spawn-next.gif">filled up randomly</a> on click, using the queue on the top left corner of the window, which contained the next shapes to be rendered inside the game area.</p>
+<p>My main task was rewriting <a href="https://wiki.gnome.org/Apps/Five%20or%20more">Five or More</a> in Vala since this simple and fun game did not find its way to the list of those included in the <a href="https://wiki.gnome.org/Initiatives/GamesModernisation">Games Modernisation Initiative</a>. This fun, strategy game consists of aligning, as often as possible, five or more objects of the same shape and color, to make them disappear and score points.</p>
 
-<p>Now, all of that changed, and the user can interact with each individual shape rendered on the game board. The pathfinding system I came up with uses the A* algorithm with a Manhattan distance heuristic to determine the shortest path from the current cell to the destination cell chosen by the player.</p>
+<p>Besides the Vala rewrite, there were also some other tasks included, such as migrating to Meson and dropping autotools, as well as keeping the view and logic separated and updating the UI to make this game more relatable for the public and more fresh-looking. However, after thoroughly discussing the details with my mentor, Robert Roth (IRC: evfool), more emphasis was placed upon rewriting the code to Vala, since the GSoC program is specifically designed for software development. However, slight UI modifications were integrated as to match the <a href="https://developer.gnome.org/hig/stable/visual-layout.html.en">visual layout guidelines</a>.</p>
 
-<p><br /></p>
+<p>Some of the tasks, namely porting to gettext, porting to Meson and dropping autotools happened earlier on, during the pre-GSoC time frame, in the attempt to familiarise myself with the project and the tasks that would come with it.</p>
 
-<div align="center">
-	<img src="https://ruxandraS.github.io/assets/images/progress-report-2/1-player-shape-interaction.gif" width="500" />
-	<center>Player interaction with shapes</center>
-</div>
+<p>Afterward, I started with the easier tasks and advanced towards the more complex ones. At first, I ported the application window and the preferences menu and added callbacks for each of the preferences buttons. I then continued with porting the preview widget displaying the next objects to be rendered on the game board.</p>
 
-<p><br /></p>
+<p>Next, it was time to channel my attention towards porting the game board, handling board colour changes and resizing the board alongside the window resize, by using the grid frame functionality inside the <a href="https://gitlab.gnome.org/GNOME/libgnome-games-support">libgnome-games-support</a> library.</p>
 
-<p>Next, I continued to work on making five (or more 😄) shapes of the same kind aligned in a row, column or diagonal, disappear from the board…</p>
+<p>The following target was implementing the actual gameplay logic, which consisted of a pathfinding algorithm based on A*, erasing all objects of the same shape and colour aligned in a row, column or diagonal from the board, if there were either five or more than five, and adding to the score whenever that happened. I also made the object movement possible with both clicking and keyboard keys, for more ease of use.</p>
 
-<p><br /></p>
+<p>Finishing touches included adding the high scores tables via the <a href="https://gitlab.gnome.org/GNOME/libgnome-games-support">libgnome-games-support</a> library, displaying an option to change the theme of the game, adding a grid to be able to make out easier the actual cells in which different shaped and coloured objects should reside, as well as updating some information contained by the help pages.</p>
 
-<div align="center">
-	<img src="https://ruxandraS.github.io/assets/images/progress-report-2/2-match.gif" width="500" />
-	<center>Matching five or more shapes in a row</center>
-</div>
+<p>Some features, however, could not be done during the GSoC period. These included handling raster game themes, making significant UI updates, as well as some other extra-features I wanted to add, which were not part of the original project description such as gamepad support or sound effects. The fist feature mentioned in this list, handling raster images was decided upon skipping as a suggestion from my mentor, as the existing raster themes were low-resolution and did not scale well to large size and HiDPI displays.</p>
 
-<p><br /></p>
+<p>For easier reading, I decided to also include this list of the tasks successfully done during GSoC:</p>
 
-<p>… and whenever that happens, the player receives points as a result, which are displayed on the top-right corner of the window.</p>
+<ul>
+  <li>Ported from autotools to Meson</li>
+  <li>Ported application window and preferences menu</li>
+  <li>Added callbacks for all buttons</li>
+  <li>Ported widget of next objects to be rendered on the game board</li>
+  <li>Handled the resize and colour change of the game board</li>
+  <li>Implemented the gameplay logic (pathfinding, matching objects and calculating scores)</li>
+  <li>Made gameplay accessible for both mouse clicks and keyboard controls</li>
+  <li>Added high scores via the <a href="https://gitlab.gnome.org/GNOME/libgnome-games-support">libgnome-games-support</a> library</li>
+  <li>Handling vector image theme changing</li>
+  <li>Made slight modifications to the UI to serve as a template and changed the spacing as recommended in the <a href="https://developer.gnome.org/hig/stable/visual-layout.html.en">visual layout guidelines</a>.</li>
+  <li>Updated documentation.</li>
+</ul>
 
-<p>Once I reviewed the screen recordings, I realised I am actually not as good at playing this game. 🙈</p>
+<p>All code is available by accessing this <a href="https://gitlab.gnome.org/GNOME/five-or-more/merge_requests/1">merge request link</a>.</p>
 
 
     
@@ -428,9 +434,9 @@
   *  https://disqus.com/admin/universalcode/#configuration-variables
   */
   var disqus_config = function () {
-    this.page.url = "http://localhost:4000/gnome/2018/07/30/five-or-more-progress-2.html";
+    this.page.url = "http://localhost:4000/gnome/2018/08/11/five-or-more-final-thoughts.html";
     this.page.identifier = "" ||
-                           "http://localhost:4000/gnome/2018/07/30/five-or-more-progress-2.html";
+                           "http://localhost:4000/gnome/2018/08/11/five-or-more-final-thoughts.html";
   }
   function loadDisqusComments() { // DON'T EDIT BELOW THIS LINE
     var d = document, s = d.createElement('script');
@@ -454,18 +460,18 @@
     
       <li>
         <h3>
-          <a href="/gnome/2018/08/11/five-or-more-final-thoughts.html">
-            Five-or-More Modernisation: It's a Wrap
-            <small>11 Aug 2018</small>
+          <a href="/gnome/2018/08/07/five-or-more-progress-3.html">
+            Five-or-More Modernisation: Now You Can Properly Play It
+            <small>07 Aug 2018</small>
           </a>
         </h3>
       </li>
     
       <li>
         <h3>
-          <a href="/gnome/2018/08/07/five-or-more-progress-3.html">
-            Five-or-More Modernisation: Now You Can Properly Play It
-            <small>07 Aug 2018</small>
+          <a href="/gnome/2018/07/30/five-or-more-progress-2.html">
+            Five-or-More Modernisation: Now They Move!
+            <small>30 Jul 2018</small>
           </a>
         </h3>
       </li>

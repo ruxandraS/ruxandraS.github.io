@@ -4,13 +4,59 @@
  <title>Ruxandra Simion</title>
  <link href="http://localhost:4000/gnome.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-08-07T21:49:19+03:00</updated>
+ <updated>2018-08-11T17:25:17+03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ruxandra Simion</name>
    <email>ruxandrasimion93@gmail.com</email>
  </author>
 
+ 
+    
+         <entry>
+           <title>Five-or-More Modernisation: It's a Wrap</title>
+           <link href="http://localhost:4000/gnome/2018/08/11/five-or-more-final-thoughts.html"/>
+           <updated>2018-08-11T17:00:00+03:00</updated>
+           <id>http://localhost:4000/gnome/2018/08/11/five-or-more-final-thoughts</id>
+           <content type="html">&lt;p&gt;As probably most of you already know, or recently found out, at the beginning of this week the GSoC coding period officially ended, and it is time for us, GSoC students, to submit our final evaluations and the results we achieved thus far. This blog post, as you can probably tell from the title, will be a summary of all of the work I put into modernising &lt;a href=&quot;https://wiki.gnome.org/Apps/Five%20or%20more&quot;&gt;Five or More&lt;/a&gt; throughout the summer months.&lt;/p&gt;
+
+&lt;p&gt;My main task was rewriting &lt;a href=&quot;https://wiki.gnome.org/Apps/Five%20or%20more&quot;&gt;Five or More&lt;/a&gt; in Vala since this simple and fun game did not find its way to the list of those included in the &lt;a href=&quot;https://wiki.gnome.org/Initiatives/GamesModernisation&quot;&gt;Games Modernisation Initiative&lt;/a&gt;. This fun, strategy game consists of aligning, as often as possible, five or more objects of the same shape and color, to make them disappear and score points.&lt;/p&gt;
+
+&lt;p&gt;Besides the Vala rewrite, there were also some other tasks included, such as migrating to Meson and dropping autotools, as well as keeping the view and logic separated and updating the UI to make this game more relatable for the public and more fresh-looking. However, after thoroughly discussing the details with my mentor, Robert Roth (IRC: evfool), more emphasis was placed upon rewriting the code to Vala, since the GSoC program is specifically designed for software development. However, slight UI modifications were integrated as to match the &lt;a href=&quot;https://developer.gnome.org/hig/stable/visual-layout.html.en&quot;&gt;visual layout guidelines&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Some of the tasks, namely porting to gettext, porting to Meson and dropping autotools happened earlier on, during the pre-GSoC time frame, in the attempt to familiarise myself with the project and the tasks that would come with it.&lt;/p&gt;
+
+&lt;p&gt;Afterward, I started with the easier tasks and advanced towards the more complex ones. At first, I ported the application window and the preferences menu and added callbacks for each of the preferences buttons. I then continued with porting the preview widget displaying the next objects to be rendered on the game board.&lt;/p&gt;
+
+&lt;p&gt;Next, it was time to channel my attention towards porting the game board, handling board colour changes and resizing the board alongside the window resize, by using the grid frame functionality inside the &lt;a href=&quot;https://gitlab.gnome.org/GNOME/libgnome-games-support&quot;&gt;libgnome-games-support&lt;/a&gt; library.&lt;/p&gt;
+
+&lt;p&gt;The following target was implementing the actual gameplay logic, which consisted of a pathfinding algorithm based on A*, erasing all objects of the same shape and colour aligned in a row, column or diagonal from the board, if there were either five or more than five, and adding to the score whenever that happened. I also made the object movement possible with both clicking and keyboard keys, for more ease of use.&lt;/p&gt;
+
+&lt;p&gt;Finishing touches included adding the high scores tables via the &lt;a href=&quot;https://gitlab.gnome.org/GNOME/libgnome-games-support&quot;&gt;libgnome-games-support&lt;/a&gt; library, displaying an option to change the theme of the game, adding a grid to be able to make out easier the actual cells in which different shaped and coloured objects should reside, as well as updating some information contained by the help pages.&lt;/p&gt;
+
+&lt;p&gt;Some features, however, could not be done during the GSoC period. These included handling raster game themes, making significant UI updates, as well as some other extra-features I wanted to add, which were not part of the original project description such as gamepad support or sound effects. The fist feature mentioned in this list, handling raster images was decided upon skipping as a suggestion from my mentor, as the existing raster themes were low-resolution and did not scale well to large size and HiDPI displays.&lt;/p&gt;
+
+&lt;p&gt;For easier reading, I decided to also include this list of the tasks successfully done during GSoC:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ported from autotools to Meson&lt;/li&gt;
+  &lt;li&gt;Ported application window and preferences menu&lt;/li&gt;
+  &lt;li&gt;Added callbacks for all buttons&lt;/li&gt;
+  &lt;li&gt;Ported widget of next objects to be rendered on the game board&lt;/li&gt;
+  &lt;li&gt;Handled the resize and colour change of the game board&lt;/li&gt;
+  &lt;li&gt;Implemented the gameplay logic (pathfinding, matching objects and calculating scores)&lt;/li&gt;
+  &lt;li&gt;Made gameplay accessible for both mouse clicks and keyboard controls&lt;/li&gt;
+  &lt;li&gt;Added high scores via the &lt;a href=&quot;https://gitlab.gnome.org/GNOME/libgnome-games-support&quot;&gt;libgnome-games-support&lt;/a&gt; library&lt;/li&gt;
+  &lt;li&gt;Handling vector image theme changing&lt;/li&gt;
+  &lt;li&gt;Made slight modifications to the UI to serve as a template and changed the spacing as recommended in the &lt;a href=&quot;https://developer.gnome.org/hig/stable/visual-layout.html.en&quot;&gt;visual layout guidelines&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Updated documentation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All code is available by accessing this &lt;a href=&quot;https://gitlab.gnome.org/GNOME/five-or-more/merge_requests/1&quot;&gt;merge request link&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+         </entry>
+    
  
     
          <entry>
