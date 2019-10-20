@@ -24,10 +24,12 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ruxandraS.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 abouturl: "/about"
+portofoliourl: "/portofolio"
 blogurl: "/recent_blogposts"
 tagurl: "/tags"
 sidebar_home_link: home
 sidebar_about_link: about
+sidebar_portofolio_link: portofolio
 sidebar_recent_link: recent_blogposts
 sidebar_repo_link: repo
 

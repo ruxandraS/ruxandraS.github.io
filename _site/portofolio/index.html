@@ -11,7 +11,7 @@
 
   <title>
     
-      Five-or-More Modernisation: Progress Report &middot; Ruxandra Simion
+      Portofolio &middot; Ruxandra Simion
     
   </title>
 
@@ -35,7 +35,7 @@
 </head>
 
 
-  <body class="post">
+  <body class="page">
 
     <div id="sidebar">
   <header>
@@ -64,7 +64,7 @@
   
 
   
-    <a class="home-link "
+    <a class="home-link  active"
         href="/portofolio/">Portofolio</a>
   
 
@@ -332,171 +332,194 @@
 
     <main class="container">
       <header>
-  <h1 class="post-title">Five-or-More Modernisation: Progress Report</h1>
+  <h1 class="page-title">Portofolio</h1>
 </header>
 <div class="content">
-  <div class="post-meta">
-  <span class="post-date">17 Jul 2018</span>
-  <span class="post-categories">
-    
-      &bull;
+  <h2 id="this-page-is-under-construction">This page is under construction…</h2>
 
-      
-      
-      
-
-      
-        GNOME
-      
-    
+<div align="right">
+    <img src="https://ruxandraS.github.io/assets/images/caticorn-construction.png" width="200" />
 </div>
+<p><br /></p>
 
-  <div class="post-body">
-    <p>Over the course of the past couple of months, I was able to achieve a promising progress in modernising <a href="https://wiki.gnome.org/Apps/Five%20or%20more">Five or More</a>, although I would have to say there is a fair share of aspects to tackle yet.</p>
-
-<p>I opted for rewriting the code module by module, without combining C and Vala code. There was was an <a href="https://gitlab.gnome.org/GNOME/five-or-more/tree/vala-port">old attempt</a> to port <a href="https://wiki.gnome.org/Apps/Five%20or%20more">Five or More</a> to Vala, but I chose not to use it due to the fact that the <a href="https://gitlab.gnome.org/GNOME/five-or-more/tree/vala-port">partial port</a> was 4 years old and it definitely needed an update, which might have taken quite some time, and might have produced some nasty bugs. While doing so, I paid extra attention to keep things nicely separated: all of the currently ported modules separate the game logic from the drawing logic and the UI.</p>
-
-<p>I also managed to port the app menu and the preferences window. However, due to the new <a href="https://wiki.gnome.org/Initiatives/GnomeGoals/AppMenuRetirement">design gudelines</a>, which are currently only in the state of a proposal, the app menu might require future alterations.</p>
+<h4 id="3d-tower-defense-game--2019">3D Tower Defense Game • 2019</h4>
+<div class="dev-tools-container">
+    <div class="dev-tool" style="background-color: #333333">
+        <span> Unity </span>
+    </div>
+    <div class="dev-tool" style="background-color: #996699">
+        <span> C# </span>
+    </div>
+    <div class="dev-tool" style="background-color: #330066">
+        <span> Maya </span>
+    </div>
+    <div class="dev-tool" style="background-color: #000066">
+        <span> Adobe Photoshop </span>
+    </div></div>
+<p>Fantasy-themed tower defense game developed as a learning base, in an entity-component fashion and following best practices, design patterns and optimisation techniques. Created as diploma project.</p>
 
 <p><br /></p>
 
-<div align="center">
-	<img src="https://ruxandraS.github.io/assets/images/progress-report-1/1-app-menu.gif" width="500" />
-	<center>App Menu access with functional callbacks</center>
-</div>
+<h4 id="mr-barkshell-recycles--2019">Mr. Barkshell Recycles • 2019</h4>
+<div class="dev-tools-container">
+    <div class="dev-tool" style="background-color: #333333">
+        <span> Unity </span>
+    </div>
+    <div class="dev-tool" style="background-color: #996699">
+        <span> C# </span>
+    </div>
+    <div class="dev-tool" style="background-color: #000066">
+        <span> Krita </span>
+    </div></div>
+<p>2D game featuring an environmentally-aware character, storming the streets of Lisbon in the hunt for abandoned waste to recycle. Developed in a team of three as an assignment for my exchange course of Technology of Video Games as an Erasmus student.</p>
 
 <p><br /></p>
 
-<p>The app window is currently resizable and it sports a customisable coloured board. After each click, the next shapes contained inside the next pieces widget are being spawned inside the game board.</p>
+<h4 id="five-or-more--2018">Five or More • 2018</h4>
+<div class="dev-tools-container">
+    <div class="dev-tool" style="background-color: #996699">
+        <span> Vala </span>
+    </div>
+    <div class="dev-tool" style="background-color: #993333">
+        <span> GTK </span>
+    </div>
+    <div class="dev-tool" style="background-color: #000066">
+        <span> Gimp </span>
+    </div></div>
+<p>I modernised GNOME Five or More by rewriting the application in Vala, while using the same MVC design pattern standard which is used for most of GNOME’s games, to allow easier maintainability in future. Additional work included the integration of the libgnome-games-support library to keep track of high-scores instead of using the previously implemented system.</p>
 
 <p><br /></p>
 
-<div align="center">
-	<img src="https://ruxandraS.github.io/assets/images/progress-report-1/2-change-color.gif" width="500" />
-	<center>Changing the board colour from the Preferences menu</center>
-	<br />
-	<img src="https://ruxandraS.github.io/assets/images/progress-report-1/3-change-boardsize.gif" width="500" />
-	<center>Changing the board size from the Preferences menu and resizing the window (for some reason there is a colour flick when recording the screen for this one)</center>
-	<br />
-	<img src="https://ruxandraS.github.io/assets/images/progress-report-1/4-spawn-next.gif" width="500" />
-	<center>Clicking inside the game board area</center>
-	<br />
-</div>
+<h4 id="batman-mask--2018">Batman Mask • 2018</h4>
+<div class="dev-tools-container">
+    <div class="dev-tool" style="background-color: #330066">
+        <span> Maya </span>
+    </div>
+    <div class="dev-tool" style="background-color: #330066">
+        <span> Marmoset Toolbag </span>
+    </div>
+    <div class="dev-tool" style="background-color: #000066">
+        <span> Adobe Photoshop </span>
+    </div></div>
+<p>Modelled as an assignment for first-year Master’s 3D Modelling Techniques course.</p>
 
 <p><br /></p>
 
-<p>I am currently working on the pathfinding algorithm, which will basically allow the user to move a shape from cell A to cell B inside the game grid.</p>
+<h4 id="mining-game--2018">Mining Game • 2018</h4>
+<div class="dev-tools-container">
+    <div class="dev-tool" style="background-color: #333333">
+        <span> Unity </span>
+    </div>
+    <div class="dev-tool" style="background-color: #996699">
+        <span> C# </span>
+    </div>
+        <div class="dev-tool" style="background-color: #330066">
+        <span> Maya </span>
+    </div>
+    <div class="dev-tool" style="background-color: #000066">
+        <span> Adobe Photoshop </span>
+    </div>
+    <div class="dev-tool" style="background-color: #000066">
+        <span> Adobe Illustrator </span>
+    </div>
+    <div class="dev-tool" style="background-color: #006633">
+        <span> Adobe Audition </span>
+    </div></div>
+<p>First-year Master’s assignment game which consisted of a character moving around the scene and collecting a set of crystals in its inventory in order to pass to the next level.</p>
 
-<p>The short todo list includes adding the game over logic and implementing both the scores and high scores system, by using the <a href="https://gitlab.gnome.org/GNOME/libgnome-games-support">libgnome-games-support</a>. There are also some extra-features to be added, such as animations, sounds and gamepad-support, and providing a fresh looking UI.</p>
+<p><br /></p>
 
+<h4 id="snailed-it--2018">Snailed IT • 2018</h4>
+<div class="dev-tools-container">
+    <div class="dev-tool" style="background-color: #333333">
+        <span> Unity </span>
+    </div>
+    <div class="dev-tool" style="background-color: #996699">
+        <span> C# </span>
+    </div>
+    <div class="dev-tool" style="background-color: #000066">
+        <span> Adobe Illustrator </span>
+    </div>
+    <div class="dev-tool" style="background-color: #006633">
+        <span> Audacity </span>
+    </div></div>
+<p>First-year Master’s assignment which consisted of developing a game in a team of three, by following a game jam approach. The final application consisted of a 3D racing game between garden snails, played locally against AI controlled characters. Our project made it to the final three and was chosen to be presented at the DevPlay 2018.</p>
 
-    
+<p><br /></p>
 
+<h4 id="project-unicorn--2017">Project Unicorn • 2017</h4>
+<div class="dev-tools-container">
+    <div class="dev-tool" style="background-color: #333333">
+        <span> Unity </span>
+    </div>
+    <div class="dev-tool" style="background-color: #996699">
+        <span> C# </span>
+    </div>
+    <div class="dev-tool" style="background-color: #330066">
+        <span> Maya </span>
+    </div>
+    <div class="dev-tool" style="background-color: #000066">
+        <span> Adobe Photoshop </span>
+    </div>
+    <div class="dev-tool" style="background-color: #006633">
+        <span> Audacity </span>
+    </div></div>
+<p>Fantasy-themed side-scroller with personally made 3D models developed iteratively for mobile devices as the final year thesis.</p>
 
-<!-- 
-<div class="post-tags">
-  
-    <span>
-      <span class="icon">
-        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-    <path d="M0 0h24v24H0z" fill="none"/>
-    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
-</svg>
-      </span>&nbsp;<span class="tag-name">Five-or-More</span>
-    </span>
-  
-    <span>
-      <span class="icon">
-        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-    <path d="M0 0h24v24H0z" fill="none"/>
-    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
-</svg>
-      </span>&nbsp;<span class="tag-name">GNOME</span>
-    </span>
-  
-    <span>
-      <span class="icon">
-        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-    <path d="M0 0h24v24H0z" fill="none"/>
-    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
-</svg>
-      </span>&nbsp;<span class="tag-name">GSoC</span>
-    </span>
-  
-</div> -->
-  </div>
+<p><br /></p>
 
-  
-  <section class="comments">
-    <h2>Comments</h2>
-    
-  <div id="disqus_thread">
-    <button class="disqus-load" onClick="loadDisqusComments()">
-      Load Comments
-    </button>
-  </div>
-  <script>
+<h4 id="fog-effect--2017">Fog Effect • 2017</h4>
+<div class="dev-tools-container">
+    <div class="dev-tool" style="background-color: #993333">
+        <span> OpenGL </span>
+    </div>
+    <div class="dev-tool" style="background-color: #996699">
+        <span> C++ </span>
+    </div>
+    <div class="dev-tool" style="background-color: #330066">
+        <span> Maya </span>
+    </div></div>
+<p>Fog simulator in a winter forest setting created by manually importing 3D objects.</p>
 
-  /**
-  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW
-  *  TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT:s
-  *  https://disqus.com/admin/universalcode/#configuration-variables
-  */
-  var disqus_config = function () {
-    this.page.url = "http://localhost:4000/gnome/2018/07/17/five-or-more-progress.html";
-    this.page.identifier = "" ||
-                           "http://localhost:4000/gnome/2018/07/17/five-or-more-progress.html";
-  }
-  function loadDisqusComments() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = '//https-ruxandras-github-io.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-  }
-  </script>
-  <noscript>
-    Please enable JavaScript to view the
-    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus</a>.
-  </noscript>
+<p><br /></p>
 
+<h4 id="dr-jekyll-and-mr-hyde--2016">Dr. Jekyll and Mr. Hyde • 2016</h4>
+<div class="dev-tools-container">
+    <div class="dev-tool" style="background-color: #996699">
+        <span> Python </span>
+    </div>
+    <div class="dev-tool" style="background-color: #FFCC99">
+        <span> Web sockets </span>
+    </div></div>
+<p>Variant of the classic Pac-Man game played over network connection. Developed as a fourthyear group project assignment.</p>
 
+<p><br /></p>
 
-  </section>
+<h4 id="type-the-words--2016">Type the Words • 2016</h4>
+<div class="dev-tools-container">
+    <div class="dev-tool" style="background-color: #996699">
+        <span> JavaScript </span>
+    </div>
+    <div class="dev-tool" style="background-color: #6699CC">
+        <span> HTML </span>
+    </div>
+    <div class="dev-tool" style="background-color: #6699CC">
+        <span> CSS </span>
+    </div>
+    <div class="dev-tool" style="background-color: #6699CC">
+        <span> AngularJS </span>
+    </div></div>
+<p>Speed-typing webpage game with Christmas storyline and theme developed in group.</p>
 
-  <section class="related">
-  <h2>Related Posts</h2>
-  <ul class="posts-list">
-    
-      <li>
-        <h3>
-          <a href="/gnome/2018/08/11/five-or-more-final-thoughts.html">
-            Five-or-More Modernisation: It's a Wrap
-            <small>11 Aug 2018</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="/gnome/2018/08/07/five-or-more-progress-3.html">
-            Five-or-More Modernisation: Now You Can Properly Play It
-            <small>07 Aug 2018</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="/gnome/2018/07/30/five-or-more-progress-2.html">
-            Five-or-More Modernisation: Now They Move!
-            <small>30 Jul 2018</small>
-          </a>
-        </h3>
-      </li>
-    
-  </ul>
-</section>
+<p><br /></p>
+
+<h4 id="conways-game-of-life--2015">Conway’s Game of Life • 2015</h4>
+<div class="dev-tools-container">
+    <div class="dev-tool" style="background-color: #996699">
+        <span> Java </span>
+    </div></div>
+<p>Zero-player game displaying cellular evolution, realised using Test Driven Development and Design Patterns. The final presentation included a graphic interface illustrating cellular development.</p>
+
 
 </div>
 

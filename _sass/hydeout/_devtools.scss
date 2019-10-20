@@ -1,0 +1,24 @@
+.dev-tools-container {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: left;
+  overflow: hidden;
+}
+
+.dev-tool {
+  height: 21px;
+  min-width: 30px;
+  padding-left: 7px;
+  padding-right: 7px;
+  color: white;
+  /*font-family: 'Quicksand',sans-serif;*/
+  font-weight: 100;
+  font-size: 14px;
+  float: left;
+  background-color: #813772;
+  margin-right: 5px;
+  margin-top: 5px;
+  text-align: center;
+  border-radius: 4px;
+}

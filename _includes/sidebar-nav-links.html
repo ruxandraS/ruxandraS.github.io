@@ -9,6 +9,11 @@
         href="{{ site.abouturl }}/">About</a>
   {% endif %}
 
+  {% if site.sidebar_portofolio_link %}
+    <a class="home-link {% if page.url == '/portofolio/' %} active{% endif %}"
+        href="{{ site.portofoliourl }}/">Portofolio</a>
+  {% endif %}
+
   {% if site.sidebar_recent_link %}
     <a class="home-link {% if page.url == '/recent_blogposts/' %} active{% endif %}"
         href="{{ site.blogurl }}/">Recent Blogposts</a>
