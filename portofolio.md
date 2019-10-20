@@ -11,7 +11,6 @@ permalink: /portofolio/
 </div>
 <br>
 
-
 #### 3D Tower Defense Game • 2019
 <div class="dev-tools-container">
     <div class="dev-tool" style="background-color: #333333">
@@ -41,7 +40,7 @@ Fantasy-themed tower defense game developed as a learning base, in an entity-com
     <div class="dev-tool" style="background-color: #000066">
         <span> Krita </span>
     </div></div>
-2D game featuring an environmentally-aware character, storming the streets of Lisbon in the hunt for abandoned waste to recycle. Developed in a team of three as an assignment for my exchange course of Technology of Video Games as an Erasmus student.
+2D game featuring an environmentally-aware character, storming the streets of Lisbon in the hunt for abandoned waste to recycle. Developed in a team of three as an assignment for my exchange course of Technology of Video Games, during my Erasmus exchange studies at the University NOVA of Lisbon.
 
 <br>
 
@@ -95,7 +94,7 @@ Modelled as an assignment for first-year Master’s 3D Modelling Techniques cour
     <div class="dev-tool" style="background-color: #006633">
         <span> Adobe Audition </span>
     </div></div>
-First-year Master’s assignment game which consisted of a character moving around the scene and collecting a set of crystals in its inventory in order to pass to the next level.
+First-year Master’s assignment game which consisted of a character moving around the scene, mining and collecting a set of crystals in their inventory in order to pass to the next level.
 
 <br>
 
@@ -134,7 +133,7 @@ First-year Master’s assignment which consisted of developing a game in a team 
     <div class="dev-tool" style="background-color: #006633">
         <span> Audacity </span>
     </div></div>
-Fantasy-themed side-scroller with personally made 3D models developed iteratively for mobile devices as the final year thesis.
+Fantasy-themed side-scroller with personally made 3D models, developed iteratively for mobile devices as the final year thesis.
 
 <br>
 
@@ -161,7 +160,7 @@ Fog simulator in a winter forest setting created by manually importing 3D object
     <div class="dev-tool" style="background-color: #FFCC99">
         <span> Web sockets </span>
     </div></div>
-Variant of the classic Pac-Man game played over network connection. Developed as a fourthyear group project assignment.
+Variant of the classic Pac-Man game played over network connection. Developed as a fourth year eight-person-group project assignment.
 
 <br>
 
@@ -179,7 +178,7 @@ Variant of the classic Pac-Man game played over network connection. Developed as
     <div class="dev-tool" style="background-color: #6699CC">
         <span> AngularJS </span>
     </div></div>
-Speed-typing webpage game with Christmas storyline and theme developed in group.
+Speed-typing webpage game with Christmas storyline and theme, developed in group of five as a university assignment.
 
 <br>
 
@@ -188,5 +187,5 @@ Speed-typing webpage game with Christmas storyline and theme developed in group.
     <div class="dev-tool" style="background-color: #996699">
         <span> Java </span>
     </div></div>
-Zero-player game displaying cellular evolution, realised using Test Driven Development and Design Patterns. The final presentation included a graphic interface illustrating cellular development.
+Zero-player game displaying cellular evolution, developed using Test Driven Development and Design Patterns. The final presentation included a graphic interface illustrating cellular development.
 
