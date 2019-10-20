@@ -26,6 +26,10 @@ permalink: /portofolio/
         <span> Adobe Photoshop </span>
     </div></div>
 Fantasy-themed tower defense game developed as a learning base, in an entity-component fashion and following best practices, design patterns and optimisation techniques. Created as diploma project.
+<div align="center">
+    <video width="600" controls>
+        <source src="https://ruxandraS.github.io/assets/videos/3D-tower-defense.mp4" type="video/mp4">
+    </video></div>
 
 <br>
 
