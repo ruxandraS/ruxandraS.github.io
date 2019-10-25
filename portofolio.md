@@ -24,12 +24,14 @@ permalink: /portofolio/
     </div>
     <div class="dev-tool" style="background-color: #000066">
         <span> Adobe Photoshop </span>
-    </div></div>
+    </div>
+</div>
 Fantasy-themed tower defense game developed as a learning base, in an entity-component fashion and following best practices, design patterns and optimisation techniques. Created as diploma project.
 <div align="center">
     <video width="80%" controls>
         <source src="https://ruxandraS.github.io/assets/videos/3D-tower-defense.mp4" type="video/mp4">
-    </video></div>
+    </video>
+</div>
 
 <br>
 
@@ -43,8 +45,14 @@ Fantasy-themed tower defense game developed as a learning base, in an entity-com
     </div>
     <div class="dev-tool" style="background-color: #000066">
         <span> Krita </span>
-    </div></div>
+    </div>
+</div>
 2D game featuring an environmentally-aware character, storming the streets of Lisbon in the hunt for abandoned waste to recycle. Developed in a team of three as an assignment for my exchange course of Technology of Video Games, during my Erasmus exchange studies at the University NOVA of Lisbon.
+<div align="center">
+    <video width="80%" controls>
+        <source src="https://ruxandraS.github.io/assets/videos/Mr-Barkshell.mp4" type="video/mp4">
+    </video>
+</div>
 
 <br>
 
@@ -99,6 +107,11 @@ Modelled as an assignment for first-year Master’s 3D Modelling Techniques cour
         <span> Adobe Audition </span>
     </div></div>
 First-year Master’s assignment game which consisted of a character moving around the scene, mining and collecting a set of crystals in their inventory in order to pass to the next level.
+<div align="center">
+    <video width="80%" controls>
+        <source src="https://ruxandraS.github.io/assets/videos/Mining-game.mp4" type="video/mp4">
+    </video>
+</div>
 
 <br>
 
@@ -117,6 +130,11 @@ First-year Master’s assignment game which consisted of a character moving arou
         <span> Audacity </span>
     </div></div>
 First-year Master’s assignment which consisted of developing a game in a team of three, by following a game jam approach. The final application consisted of a 3D racing game between garden snails, played locally against AI controlled characters. Our project made it to the final three and was chosen to be presented at the DevPlay 2018.
+<div align="center">
+    <video width="80%" controls>
+        <source src="https://ruxandraS.github.io/assets/videos/Snailed-it.mp4" type="video/mp4">
+    </video>
+</div>
 
 <br>
 
@@ -138,6 +156,11 @@ First-year Master’s assignment which consisted of developing a game in a team 
         <span> Audacity </span>
     </div></div>
 Fantasy-themed side-scroller with personally made 3D models, developed iteratively for mobile devices as the final year thesis.
+<div align="center">
+    <video width="80%" controls>
+        <source src="https://ruxandraS.github.io/assets/videos/Project-unicorn.mp4" type="video/mp4">
+    </video>
+</div>
 
 <br>
 
@@ -183,6 +206,11 @@ Variant of the classic Pac-Man game played over network connection. Developed as
         <span> AngularJS </span>
     </div></div>
 Speed-typing webpage game with Christmas storyline and theme, developed in group of five as a university assignment.
+<div align="center">
+    <video width="80%" controls>
+        <source src="https://ruxandraS.github.io/assets/videos/Type-the-words.mp4" type="video/mp4">
+    </video>
+</div>
 
 <br>
 
@@ -192,4 +220,8 @@ Speed-typing webpage game with Christmas storyline and theme, developed in group
         <span> Java </span>
     </div></div>
 Zero-player game displaying cellular evolution, developed using Test Driven Development and Design Patterns. The final presentation included a graphic interface illustrating cellular development.
-
+<div align="center">
+    <video width="80%" controls>
+        <source src="https://ruxandraS.github.io/assets/videos/Game-of-life.mp4" type="video/mp4">
+    </video>
+</div>

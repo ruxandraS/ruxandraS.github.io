@@ -1,0 +1,9 @@
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+assets/videos/ filter=lfs diff=lfs merge=lfs -text
+assets/videos/Game-of-life.mp4 filter=lfs diff=lfs merge=lfs -text
+assets/videos/Mining-game.mp4 filter=lfs diff=lfs merge=lfs -text
+assets/videos/Mr-Barkshell.mp4 filter=lfs diff=lfs merge=lfs -text
+assets/videos/Project-unicorn.mp4 filter=lfs diff=lfs merge=lfs -text
+assets/videos/Snailed-it.mp4 filter=lfs diff=lfs merge=lfs -text
+assets/videos/Type-the-words.mp4 filter=lfs diff=lfs merge=lfs -text
+assets/videos/3D-tower-defense.mp4 filter=lfs diff=lfs merge=lfs -text
