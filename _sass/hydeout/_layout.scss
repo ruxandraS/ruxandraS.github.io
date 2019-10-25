@@ -190,7 +190,8 @@ body {
 
     > header {
       color: inherit;
-      margin: 0;
+      margin-left: 15%;
+      margin-right: 15%;
       h1, h2 {
         color: inherit;
 
@@ -201,7 +202,9 @@ body {
     }
 
     > * {
-      max-width: 38rem;
+      /* max-width: 38rem; */
+      margin-left: 15%;
+      margin-right: 15%;
       padding: 0;
     }
   }
