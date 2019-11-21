@@ -4,13 +4,6 @@ title: Portofolio
 permalink: /portofolio/
 ---
 
-## This page is under construction...
-
-<div align="right">
-    <img src="https://ruxandraS.github.io/assets/images/caticorn-construction.png" width="200"/>
-</div>
-<br>
-
 #### 3D Tower Defense Game • 2019
 <div class="dev-tools-container">
     <div class="dev-tool" style="background-color: #333333">
